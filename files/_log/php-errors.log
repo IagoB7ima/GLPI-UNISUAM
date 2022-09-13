@@ -1,0 +1,535 @@
+[2022-09-12 14:22:34] glpiphplog.WARNING: Test logger  
+[2022-09-12 14:23:16] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to a member function getTime() on null in /var/www/src/Html.php at line 772
+  Backtrace :
+  src/Html.php:1922                                  Html::displayDebugInfos()
+  src/Html.php:2142                                  Html::footer()
+  src/Html.php:935                                   Html::nullFooter()
+  src/Toolbox.php:2442                               Html::displayErrorAndDie()
+  install/install.php:544                            Toolbox::checkValidReferer()
+  
+[2022-09-12 14:23:36] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror.scss  {"user":"@79444b1f7564"} 
+[2022-09-12 15:31:30] glpiphplog.WARNING:   *** PHP Warning (2): file(/var/www/tools/HEADER): Failed to open stream: No such file or directory in /var/www/src/Console/Build/CompileScssCommand.php at line 173
+  Backtrace :
+  src/Console/Build/CompileScssCommand.php:173       file()
+  src/Console/Build/CompileScssCommand.php:122       Glpi\Console\Build\CompileScssCommand->getLicenceHeaderString()
+  vendor/symfony/console/Command/Command.php:298     Glpi\Console\Build\CompileScssCommand->execute()
+  vendor/symfony/console/Application.php:1015        Symfony\Component\Console\Command\Command->run()
+  src/Console/Application.php:256                    Symfony\Component\Console\Application->doRunCommand()
+  vendor/symfony/console/Application.php:299         Glpi\Console\Application->doRunCommand()
+  vendor/symfony/console/Application.php:171         Symfony\Component\Console\Application->doRun()
+  bin/console:122                                    Symfony\Component\Console\Application->run()
+  
+[2022-09-12 15:31:30] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: array_map(): Argument #2 ($array) must be of type array, bool given in /var/www/src/Console/Build/CompileScssCommand.php at line 177
+  Backtrace :
+  src/Console/Build/CompileScssCommand.php:177       array_map()
+  src/Console/Build/CompileScssCommand.php:122       Glpi\Console\Build\CompileScssCommand->getLicenceHeaderString()
+  vendor/symfony/console/Command/Command.php:298     Glpi\Console\Build\CompileScssCommand->execute()
+  vendor/symfony/console/Application.php:1015        Symfony\Component\Console\Command\Command->run()
+  src/Console/Application.php:256                    Symfony\Component\Console\Application->doRunCommand()
+  vendor/symfony/console/Application.php:299         Glpi\Console\Application->doRunCommand()
+  vendor/symfony/console/Application.php:171         Symfony\Component\Console\Application->doRun()
+  bin/console:122                                    Symfony\Component\Console\Application->run()
+  
+[2022-09-12 15:38:00] glpiphplog.WARNING:   *** PHP Warning (2): file(/var/www/tools/HEADER): Failed to open stream: No such file or directory in /var/www/src/Console/Build/CompileScssCommand.php at line 173
+  Backtrace :
+  src/Console/Build/CompileScssCommand.php:173       file()
+  src/Console/Build/CompileScssCommand.php:122       Glpi\Console\Build\CompileScssCommand->getLicenceHeaderString()
+  vendor/symfony/console/Command/Command.php:298     Glpi\Console\Build\CompileScssCommand->execute()
+  vendor/symfony/console/Application.php:1015        Symfony\Component\Console\Command\Command->run()
+  src/Console/Application.php:256                    Symfony\Component\Console\Application->doRunCommand()
+  vendor/symfony/console/Application.php:299         Glpi\Console\Application->doRunCommand()
+  vendor/symfony/console/Application.php:171         Symfony\Component\Console\Application->doRun()
+  bin/console:122                                    Symfony\Component\Console\Application->run()
+  
+[2022-09-12 15:38:00] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: array_map(): Argument #2 ($array) must be of type array, bool given in /var/www/src/Console/Build/CompileScssCommand.php at line 177
+  Backtrace :
+  src/Console/Build/CompileScssCommand.php:177       array_map()
+  src/Console/Build/CompileScssCommand.php:122       Glpi\Console\Build\CompileScssCommand->getLicenceHeaderString()
+  vendor/symfony/console/Command/Command.php:298     Glpi\Console\Build\CompileScssCommand->execute()
+  vendor/symfony/console/Application.php:1015        Symfony\Component\Console\Command\Command->run()
+  src/Console/Application.php:256                    Symfony\Component\Console\Application->doRunCommand()
+  vendor/symfony/console/Application.php:299         Glpi\Console\Application->doRunCommand()
+  vendor/symfony/console/Application.php:171         Symfony\Component\Console\Application->doRun()
+  bin/console:122                                    Symfony\Component\Console\Application->run()
+  
+[2022-09-12 15:39:50] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/install.scss  {"user":"@79444b1f7564"} 
+[2022-09-12 15:40:37] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/aerialgreen.scss  {"user":"@79444b1f7564","mem_usage":"47.267\", 46.93Mio)"} 
+[2022-09-12 15:41:27] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror.scss  {"user":"@79444b1f7564","mem_usage":"49.443\", 46.52Mio)"} 
+[2022-09-12 15:42:16] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror_dark.scss  {"user":"@79444b1f7564","mem_usage":"49.114\", 46.53Mio)"} 
+[2022-09-12 15:43:21] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/automn.scss  {"user":"@79444b1f7564","mem_usage":"64.908\", 47.05Mio)"} 
+[2022-09-12 15:44:28] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/classic.scss  {"user":"@79444b1f7564","mem_usage":"67.563\", 46.52Mio)"} 
+[2022-09-12 15:45:20] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/clockworkorange.scss  {"user":"@79444b1f7564","mem_usage":"52.030\", 46.52Mio)"} 
+[2022-09-12 15:46:05] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/dark.scss  {"user":"@79444b1f7564","mem_usage":"44.826\", 46.52Mio)"} 
+[2022-09-12 15:46:55] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/darker.scss  {"user":"@79444b1f7564","mem_usage":"49.443\", 46.52Mio)"} 
+[2022-09-12 15:47:42] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/flood.scss  {"user":"@79444b1f7564","mem_usage":"47.620\", 47.05Mio)"} 
+[2022-09-12 15:48:27] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/greenflat.scss  {"user":"@79444b1f7564","mem_usage":"45.273\", 46.52Mio)"} 
+[2022-09-12 15:49:14] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/hipster.scss  {"user":"@79444b1f7564","mem_usage":"46.078\", 46.52Mio)"} 
+[2022-09-12 15:49:59] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/icecream.scss  {"user":"@79444b1f7564","mem_usage":"45.621\", 46.52Mio)"} 
+[2022-09-12 15:50:50] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/lightblue.scss  {"user":"@79444b1f7564","mem_usage":"51.211\", 46.52Mio)"} 
+[2022-09-12 15:51:41] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/midnight.scss  {"user":"@79444b1f7564","mem_usage":"50.953\", 46.53Mio)"} 
+[2022-09-12 15:52:27] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/premiumred.scss  {"user":"@79444b1f7564","mem_usage":"45.486\", 47.04Mio)"} 
+[2022-09-12 15:53:11] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/purplehaze.scss  {"user":"@79444b1f7564","mem_usage":"44.221\", 46.52Mio)"} 
+[2022-09-12 15:53:58] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/teclib.scss  {"user":"@79444b1f7564","mem_usage":"47.207\", 46.52Mio)"} 
+[2022-09-12 15:54:46] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/vintage.scss  {"user":"@79444b1f7564","mem_usage":"47.527\", 46.52Mio)"} 
+[2022-09-12 15:55:28] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/chartist.scss  {"user":"@79444b1f7564","mem_usage":"41.974\", 46.52Mio)"} 
+[2022-09-12 15:55:28] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/dashboard.scss  {"user":"@79444b1f7564","mem_usage":"0.190\", 45.86Mio)"} 
+[2022-09-12 15:55:28] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/gridstack-grids.scss  {"user":"@79444b1f7564","mem_usage":"0.370\", 48.05Mio)"} 
+[2022-09-12 15:55:48] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/marketplace.scss  {"user":"@79444b1f7564","mem_usage":"19.979\", 45.50Mio)"} 
+[2022-09-12 15:55:48] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/reservations.scss  {"user":"@79444b1f7564","mem_usage":"0.105\", 44.01Mio)"} 
+[2022-09-12 16:45:07] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/install.scss  {"user":"@79444b1f7564"} 
+[2022-09-12 16:45:48] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/aerialgreen.scss  {"user":"@79444b1f7564","mem_usage":"40.816\", 46.93Mio)"} 
+[2022-09-12 16:46:27] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror.scss  {"user":"@79444b1f7564","mem_usage":"39.656\", 46.52Mio)"} 
+[2022-09-12 16:47:07] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror_dark.scss  {"user":"@79444b1f7564","mem_usage":"40.096\", 46.54Mio)"} 
+[2022-09-12 16:47:53] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/automn.scss  {"user":"@79444b1f7564","mem_usage":"45.272\", 47.05Mio)"} 
+[2022-09-12 16:48:32] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/classic.scss  {"user":"@79444b1f7564","mem_usage":"39.744\", 46.53Mio)"} 
+[2022-09-12 16:49:14] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/clockworkorange.scss  {"user":"@79444b1f7564","mem_usage":"41.285\", 46.52Mio)"} 
+[2022-09-12 16:49:53] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/dark.scss  {"user":"@79444b1f7564","mem_usage":"39.427\", 46.52Mio)"} 
+[2022-09-12 16:50:33] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/darker.scss  {"user":"@79444b1f7564","mem_usage":"39.914\", 46.52Mio)"} 
+[2022-09-12 16:51:14] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/flood.scss  {"user":"@79444b1f7564","mem_usage":"40.840\", 47.05Mio)"} 
+[2022-09-12 16:51:55] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/greenflat.scss  {"user":"@79444b1f7564","mem_usage":"41.016\", 46.52Mio)"} 
+[2022-09-12 16:52:34] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/hipster.scss  {"user":"@79444b1f7564","mem_usage":"39.632\", 46.52Mio)"} 
+[2022-09-12 16:53:15] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/icecream.scss  {"user":"@79444b1f7564","mem_usage":"40.735\", 46.53Mio)"} 
+[2022-09-12 16:53:55] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/lightblue.scss  {"user":"@79444b1f7564","mem_usage":"40.079\", 46.53Mio)"} 
+[2022-09-12 16:54:35] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/midnight.scss  {"user":"@79444b1f7564","mem_usage":"39.564\", 46.53Mio)"} 
+[2022-09-12 16:55:17] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/premiumred.scss  {"user":"@79444b1f7564","mem_usage":"42.142\", 47.05Mio)"} 
+[2022-09-12 16:55:57] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/purplehaze.scss  {"user":"@79444b1f7564","mem_usage":"40.086\", 46.52Mio)"} 
+[2022-09-12 16:56:37] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/teclib.scss  {"user":"@79444b1f7564","mem_usage":"39.933\", 46.52Mio)"} 
+[2022-09-12 16:57:16] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/vintage.scss  {"user":"@79444b1f7564","mem_usage":"38.847\", 46.52Mio)"} 
+[2022-09-12 16:57:53] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/chartist.scss  {"user":"@79444b1f7564","mem_usage":"36.743\", 46.52Mio)"} 
+[2022-09-12 16:57:53] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/dashboard.scss  {"user":"@79444b1f7564","mem_usage":"0.174\", 45.86Mio)"} 
+[2022-09-12 16:57:53] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/gridstack-grids.scss  {"user":"@79444b1f7564","mem_usage":"0.416\", 48.05Mio)"} 
+[2022-09-12 16:58:11] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/marketplace.scss  {"user":"@79444b1f7564","mem_usage":"18.285\", 45.50Mio)"} 
+[2022-09-12 16:58:12] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/reservations.scss  {"user":"@79444b1f7564","mem_usage":"0.238\", 44.01Mio)"} 
+[2022-09-12 17:27:04] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/install.scss  {"user":"@79444b1f7564"} 
+[2022-09-12 17:27:58] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/aerialgreen.scss  {"user":"@79444b1f7564","mem_usage":"53.928\", 46.93Mio)"} 
+[2022-09-12 17:29:15] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror.scss  {"user":"@79444b1f7564","mem_usage":"76.789\", 46.52Mio)"} 
+[2022-09-12 17:30:01] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror_dark.scss  {"user":"@79444b1f7564","mem_usage":"46.373\", 46.54Mio)"} 
+[2022-09-12 17:30:57] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/automn.scss  {"user":"@79444b1f7564","mem_usage":"55.619\", 47.05Mio)"} 
+[2022-09-12 17:32:03] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/classic.scss  {"user":"@79444b1f7564","mem_usage":"66.338\", 46.53Mio)"} 
+[2022-09-12 17:33:26] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/clockworkorange.scss  {"user":"@79444b1f7564","mem_usage":"82.738\", 46.52Mio)"} 
+[2022-09-12 17:34:13] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/dark.scss  {"user":"@79444b1f7564","mem_usage":"47.585\", 46.52Mio)"} 
+[2022-09-12 17:34:54] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/darker.scss  {"user":"@79444b1f7564","mem_usage":"41.004\", 46.52Mio)"} 
+[2022-09-12 17:35:40] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/flood.scss  {"user":"@79444b1f7564","mem_usage":"45.628\", 47.05Mio)"} 
+[2022-09-12 17:36:30] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/greenflat.scss  {"user":"@79444b1f7564","mem_usage":"49.961\", 46.52Mio)"} 
+[2022-09-12 17:37:22] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/hipster.scss  {"user":"@79444b1f7564","mem_usage":"52.398\", 46.52Mio)"} 
+[2022-09-12 17:38:08] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/icecream.scss  {"user":"@79444b1f7564","mem_usage":"45.679\", 46.53Mio)"} 
+[2022-09-12 17:38:54] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/lightblue.scss  {"user":"@79444b1f7564","mem_usage":"45.931\", 46.53Mio)"} 
+[2022-09-12 17:39:40] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/midnight.scss  {"user":"@79444b1f7564","mem_usage":"46.020\", 46.53Mio)"} 
+[2022-09-12 17:40:26] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/premiumred.scss  {"user":"@79444b1f7564","mem_usage":"45.447\", 47.05Mio)"} 
+[2022-09-12 17:41:14] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/purplehaze.scss  {"user":"@79444b1f7564","mem_usage":"47.983\", 46.52Mio)"} 
+[2022-09-12 17:42:14] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/teclib.scss  {"user":"@79444b1f7564","mem_usage":"60.306\", 46.52Mio)"} 
+[2022-09-12 17:43:29] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/vintage.scss  {"user":"@79444b1f7564","mem_usage":"74.750\", 46.52Mio)"} 
+[2022-09-12 17:44:06] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/chartist.scss  {"user":"@79444b1f7564","mem_usage":"37.492\", 46.52Mio)"} 
+[2022-09-12 17:44:06] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/dashboard.scss  {"user":"@79444b1f7564","mem_usage":"0.146\", 45.86Mio)"} 
+[2022-09-12 17:44:07] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/gridstack-grids.scss  {"user":"@79444b1f7564","mem_usage":"0.444\", 48.05Mio)"} 
+[2022-09-12 17:44:26] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/marketplace.scss  {"user":"@79444b1f7564","mem_usage":"18.866\", 45.50Mio)"} 
+[2022-09-12 17:44:26] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/reservations.scss  {"user":"@79444b1f7564","mem_usage":"0.122\", 44.01Mio)"} 
+[2022-09-12 17:56:26] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/install.scss  {"user":"@79444b1f7564"} 
+[2022-09-12 17:57:08] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/aerialgreen.scss  {"user":"@79444b1f7564","mem_usage":"41.611\", 46.93Mio)"} 
+[2022-09-12 17:57:46] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror.scss  {"user":"@79444b1f7564","mem_usage":"38.153\", 46.52Mio)"} 
+[2022-09-12 17:58:31] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror_dark.scss  {"user":"@79444b1f7564","mem_usage":"44.873\", 46.54Mio)"} 
+[2022-09-12 17:59:22] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/automn.scss  {"user":"@79444b1f7564","mem_usage":"51.261\", 47.05Mio)"} 
+[2022-09-12 18:00:04] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/classic.scss  {"user":"@79444b1f7564","mem_usage":"42.534\", 46.53Mio)"} 
+[2022-09-12 18:00:47] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/clockworkorange.scss  {"user":"@79444b1f7564","mem_usage":"42.220\", 46.52Mio)"} 
+[2022-09-12 18:01:31] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/dark.scss  {"user":"@79444b1f7564","mem_usage":"44.859\", 46.52Mio)"} 
+[2022-09-12 18:02:13] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/darker.scss  {"user":"@79444b1f7564","mem_usage":"41.108\", 46.52Mio)"} 
+[2022-09-12 18:03:10] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/flood.scss  {"user":"@79444b1f7564","mem_usage":"57.627\", 47.05Mio)"} 
+[2022-09-12 18:03:58] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/greenflat.scss  {"user":"@79444b1f7564","mem_usage":"47.676\", 46.52Mio)"} 
+[2022-09-12 18:04:41] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/hipster.scss  {"user":"@79444b1f7564","mem_usage":"42.957\", 46.52Mio)"} 
+[2022-09-12 18:05:20] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/icecream.scss  {"user":"@79444b1f7564","mem_usage":"39.527\", 46.53Mio)"} 
+[2022-09-12 18:05:59] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/lightblue.scss  {"user":"@79444b1f7564","mem_usage":"38.461\", 46.53Mio)"} 
+[2022-09-12 18:06:38] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/midnight.scss  {"user":"@79444b1f7564","mem_usage":"38.687\", 46.53Mio)"} 
+[2022-09-12 18:07:32] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/premiumred.scss  {"user":"@79444b1f7564","mem_usage":"54.094\", 47.05Mio)"} 
+[2022-09-12 18:08:27] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/purplehaze.scss  {"user":"@79444b1f7564","mem_usage":"55.231\", 46.52Mio)"} 
+[2022-09-12 18:09:20] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/teclib.scss  {"user":"@79444b1f7564","mem_usage":"53.539\", 46.52Mio)"} 
+[2022-09-12 18:10:08] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/vintage.scss  {"user":"@79444b1f7564","mem_usage":"47.231\", 46.52Mio)"} 
+[2022-09-12 18:10:49] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/chartist.scss  {"user":"@79444b1f7564","mem_usage":"41.151\", 46.52Mio)"} 
+[2022-09-12 18:10:49] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/dashboard.scss  {"user":"@79444b1f7564","mem_usage":"0.318\", 45.86Mio)"} 
+[2022-09-12 18:10:49] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/gridstack-grids.scss  {"user":"@79444b1f7564","mem_usage":"0.346\", 48.05Mio)"} 
+[2022-09-12 18:11:10] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/marketplace.scss  {"user":"@79444b1f7564","mem_usage":"20.367\", 45.50Mio)"} 
+[2022-09-12 18:11:10] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/reservations.scss  {"user":"@79444b1f7564","mem_usage":"0.108\", 44.01Mio)"} 
+[2022-09-12 18:14:40] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/install.scss  {"user":"@79444b1f7564"} 
+[2022-09-12 18:15:33] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/aerialgreen.scss  {"user":"@79444b1f7564","mem_usage":"53.166\", 46.93Mio)"} 
+[2022-09-12 18:16:18] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror.scss  {"user":"@79444b1f7564","mem_usage":"44.930\", 46.52Mio)"} 
+[2022-09-12 18:17:08] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror_dark.scss  {"user":"@79444b1f7564","mem_usage":"49.984\", 46.54Mio)"} 
+[2022-09-12 18:18:10] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/automn.scss  {"user":"@79444b1f7564","mem_usage":"62.113\", 47.05Mio)"} 
+[2022-09-12 18:19:01] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/classic.scss  {"user":"@79444b1f7564","mem_usage":"50.919\", 46.53Mio)"} 
+[2022-09-12 18:19:47] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/clockworkorange.scss  {"user":"@79444b1f7564","mem_usage":"45.480\", 46.53Mio)"} 
+[2022-09-12 18:20:38] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/dark.scss  {"user":"@79444b1f7564","mem_usage":"50.773\", 46.52Mio)"} 
+[2022-09-12 18:21:23] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/darker.scss  {"user":"@79444b1f7564","mem_usage":"45.025\", 46.52Mio)"} 
+[2022-09-12 18:22:09] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/flood.scss  {"user":"@79444b1f7564","mem_usage":"46.604\", 47.05Mio)"} 
+[2022-09-12 18:22:58] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/greenflat.scss  {"user":"@79444b1f7564","mem_usage":"48.927\", 46.52Mio)"} 
+[2022-09-12 18:23:46] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/hipster.scss  {"user":"@79444b1f7564","mem_usage":"47.437\", 46.52Mio)"} 
+[2022-09-12 18:24:32] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/icecream.scss  {"user":"@79444b1f7564","mem_usage":"46.839\", 46.52Mio)"} 
+[2022-09-12 18:25:15] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/lightblue.scss  {"user":"@79444b1f7564","mem_usage":"42.269\", 46.52Mio)"} 
+[2022-09-12 18:26:32] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/midnight.scss  {"user":"@79444b1f7564","mem_usage":"77.445\", 46.53Mio)"} 
+[2022-09-12 18:27:39] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/premiumred.scss  {"user":"@79444b1f7564","mem_usage":"66.865\", 47.05Mio)"} 
+[2022-09-12 18:28:34] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/purplehaze.scss  {"user":"@79444b1f7564","mem_usage":"55.295\", 46.52Mio)"} 
+[2022-09-12 18:29:32] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/teclib.scss  {"user":"@79444b1f7564","mem_usage":"57.661\", 46.52Mio)"} 
+[2022-09-12 18:30:20] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/vintage.scss  {"user":"@79444b1f7564","mem_usage":"48.505\", 46.52Mio)"} 
+[2022-09-12 18:31:02] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/chartist.scss  {"user":"@79444b1f7564","mem_usage":"41.712\", 46.52Mio)"} 
+[2022-09-12 18:31:02] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/dashboard.scss  {"user":"@79444b1f7564","mem_usage":"0.142\", 45.86Mio)"} 
+[2022-09-12 18:31:03] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/gridstack-grids.scss  {"user":"@79444b1f7564","mem_usage":"0.380\", 48.05Mio)"} 
+[2022-09-12 18:31:22] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/marketplace.scss  {"user":"@79444b1f7564","mem_usage":"19.684\", 45.50Mio)"} 
+[2022-09-12 18:31:22] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/reservations.scss  {"user":"@79444b1f7564","mem_usage":"0.102\", 44.01Mio)"} 
+[2022-09-12 18:41:12] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/install.scss  {"user":"@79444b1f7564"} 
+[2022-09-12 18:42:09] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/aerialgreen.scss  {"user":"@79444b1f7564","mem_usage":"57.028\", 46.93Mio)"} 
+[2022-09-12 18:43:01] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror.scss  {"user":"@79444b1f7564","mem_usage":"52.505\", 46.52Mio)"} 
+[2022-09-12 18:43:58] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror_dark.scss  {"user":"@79444b1f7564","mem_usage":"57.338\", 46.53Mio)"} 
+[2022-09-12 18:44:56] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/automn.scss  {"user":"@79444b1f7564","mem_usage":"57.260\", 47.05Mio)"} 
+[2022-09-12 18:45:48] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/classic.scss  {"user":"@79444b1f7564","mem_usage":"52.522\", 46.52Mio)"} 
+[2022-09-12 18:46:54] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/clockworkorange.scss  {"user":"@79444b1f7564","mem_usage":"66.231\", 46.53Mio)"} 
+[2022-09-12 18:47:54] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/dark.scss  {"user":"@79444b1f7564","mem_usage":"59.966\", 46.53Mio)"} 
+[2022-09-12 18:48:43] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/darker.scss  {"user":"@79444b1f7564","mem_usage":"48.586\", 46.53Mio)"} 
+[2022-09-12 18:49:26] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/flood.scss  {"user":"@79444b1f7564","mem_usage":"42.547\", 47.05Mio)"} 
+[2022-09-12 18:50:13] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/greenflat.scss  {"user":"@79444b1f7564","mem_usage":"47.238\", 46.52Mio)"} 
+[2022-09-12 18:50:56] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/hipster.scss  {"user":"@79444b1f7564","mem_usage":"43.602\", 46.53Mio)"} 
+[2022-09-12 18:51:40] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/icecream.scss  {"user":"@79444b1f7564","mem_usage":"43.774\", 46.53Mio)"} 
+[2022-09-12 18:52:23] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/lightblue.scss  {"user":"@79444b1f7564","mem_usage":"42.884\", 46.53Mio)"} 
+[2022-09-12 18:53:09] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/midnight.scss  {"user":"@79444b1f7564","mem_usage":"46.147\", 46.53Mio)"} 
+[2022-09-12 18:53:55] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/premiumred.scss  {"user":"@79444b1f7564","mem_usage":"45.479\", 47.05Mio)"} 
+[2022-09-12 18:54:37] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/purplehaze.scss  {"user":"@79444b1f7564","mem_usage":"42.068\", 46.53Mio)"} 
+[2022-09-12 18:55:19] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/teclib.scss  {"user":"@79444b1f7564","mem_usage":"42.379\", 46.53Mio)"} 
+[2022-09-12 18:56:01] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/vintage.scss  {"user":"@79444b1f7564","mem_usage":"41.789\", 46.53Mio)"} 
+[2022-09-12 18:56:38] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/chartist.scss  {"user":"@79444b1f7564","mem_usage":"37.218\", 46.52Mio)"} 
+[2022-09-12 18:56:38] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/dashboard.scss  {"user":"@79444b1f7564","mem_usage":"0.143\", 45.87Mio)"} 
+[2022-09-12 18:56:39] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/gridstack-grids.scss  {"user":"@79444b1f7564","mem_usage":"0.353\", 48.05Mio)"} 
+[2022-09-12 18:56:58] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/marketplace.scss  {"user":"@79444b1f7564","mem_usage":"19.298\", 45.50Mio)"} 
+[2022-09-12 18:56:58] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/reservations.scss  {"user":"@79444b1f7564","mem_usage":"0.103\", 44.01Mio)"} 
+[2022-09-12 19:04:42] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/install.scss  {"user":"@79444b1f7564"} 
+[2022-09-12 19:05:28] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/aerialgreen.scss  {"user":"@79444b1f7564","mem_usage":"46.476\", 46.93Mio)"} 
+[2022-09-12 19:06:21] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror.scss  {"user":"@79444b1f7564","mem_usage":"53.154\", 46.53Mio)"} 
+[2022-09-12 19:07:11] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror_dark.scss  {"user":"@79444b1f7564","mem_usage":"49.936\", 46.54Mio)"} 
+[2022-09-12 19:08:04] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/automn.scss  {"user":"@79444b1f7564","mem_usage":"52.915\", 47.05Mio)"} 
+[2022-09-12 19:08:54] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/classic.scss  {"user":"@79444b1f7564","mem_usage":"50.038\", 46.53Mio)"} 
+[2022-09-12 19:09:46] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/clockworkorange.scss  {"user":"@79444b1f7564","mem_usage":"51.962\", 46.52Mio)"} 
+[2022-09-12 19:10:46] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/dark.scss  {"user":"@79444b1f7564","mem_usage":"59.313\", 46.52Mio)"} 
+[2022-09-12 19:11:58] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/darker.scss  {"user":"@79444b1f7564","mem_usage":"72.732\", 46.52Mio)"} 
+[2022-09-12 19:12:53] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/flood.scss  {"user":"@79444b1f7564","mem_usage":"54.250\", 47.05Mio)"} 
+[2022-09-12 19:13:38] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/greenflat.scss  {"user":"@79444b1f7564","mem_usage":"45.448\", 46.52Mio)"} 
+[2022-09-12 19:14:24] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/hipster.scss  {"user":"@79444b1f7564","mem_usage":"45.852\", 46.53Mio)"} 
+[2022-09-12 19:15:22] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/icecream.scss  {"user":"@79444b1f7564","mem_usage":"58.202\", 46.53Mio)"} 
+[2022-09-12 19:16:48] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/lightblue.scss  {"user":"@79444b1f7564","mem_usage":"86.252\", 46.53Mio)"} 
+[2022-09-12 19:17:39] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/midnight.scss  {"user":"@79444b1f7564","mem_usage":"51.110\", 46.53Mio)"} 
+[2022-09-12 19:18:40] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/premiumred.scss  {"user":"@79444b1f7564","mem_usage":"60.242\", 47.05Mio)"} 
+[2022-09-12 19:19:31] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/purplehaze.scss  {"user":"@79444b1f7564","mem_usage":"50.852\", 46.53Mio)"} 
+[2022-09-12 19:20:18] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/teclib.scss  {"user":"@79444b1f7564","mem_usage":"47.864\", 46.53Mio)"} 
+[2022-09-12 19:21:09] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/vintage.scss  {"user":"@79444b1f7564","mem_usage":"50.397\", 46.53Mio)"} 
+[2022-09-12 19:21:49] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/chartist.scss  {"user":"@79444b1f7564","mem_usage":"40.465\", 46.52Mio)"} 
+[2022-09-12 19:21:49] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/dashboard.scss  {"user":"@79444b1f7564","mem_usage":"0.153\", 45.87Mio)"} 
+[2022-09-12 19:21:50] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/gridstack-grids.scss  {"user":"@79444b1f7564","mem_usage":"0.368\", 48.05Mio)"} 
+[2022-09-12 19:22:19] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/marketplace.scss  {"user":"@79444b1f7564","mem_usage":"29.170\", 45.50Mio)"} 
+[2022-09-12 19:22:19] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/reservations.scss  {"user":"@79444b1f7564","mem_usage":"0.213\", 44.01Mio)"} 
+[2022-09-12 19:31:19] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/install.scss  {"user":"@79444b1f7564"} 
+[2022-09-12 19:32:00] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/aerialgreen.scss  {"user":"@79444b1f7564","mem_usage":"40.884\", 46.93Mio)"} 
+[2022-09-12 19:32:42] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror.scss  {"user":"@79444b1f7564","mem_usage":"42.838\", 46.53Mio)"} 
+[2022-09-12 19:33:31] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror_dark.scss  {"user":"@79444b1f7564","mem_usage":"48.403\", 46.54Mio)"} 
+[2022-09-12 19:34:21] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/automn.scss  {"user":"@79444b1f7564","mem_usage":"50.510\", 47.05Mio)"} 
+[2022-09-12 19:35:13] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/classic.scss  {"user":"@79444b1f7564","mem_usage":"51.745\", 46.53Mio)"} 
+[2022-09-12 19:36:27] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/clockworkorange.scss  {"user":"@79444b1f7564","mem_usage":"74.063\", 46.53Mio)"} 
+[2022-09-12 19:37:58] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/dark.scss  {"user":"@79444b1f7564","mem_usage":"91.061\", 46.53Mio)"} 
+[2022-09-12 19:40:13] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/darker.scss  {"user":"@79444b1f7564","mem_usage":"134.610\", 46.53Mio)"} 
+[2022-09-12 19:41:24] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/flood.scss  {"user":"@79444b1f7564","mem_usage":"71.079\", 47.05Mio)"} 
+[2022-09-12 19:42:34] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/greenflat.scss  {"user":"@79444b1f7564","mem_usage":"70.054\", 46.52Mio)"} 
+[2022-09-12 19:43:49] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/hipster.scss  {"user":"@79444b1f7564","mem_usage":"75.275\", 46.53Mio)"} 
+[2022-09-12 19:44:55] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/icecream.scss  {"user":"@79444b1f7564","mem_usage":"66.036\", 46.53Mio)"} 
+[2022-09-12 19:46:04] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/lightblue.scss  {"user":"@79444b1f7564","mem_usage":"68.378\", 46.53Mio)"} 
+[2022-09-12 19:47:17] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/midnight.scss  {"user":"@79444b1f7564","mem_usage":"73.484\", 46.53Mio)"} 
+[2022-09-12 19:48:24] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/premiumred.scss  {"user":"@79444b1f7564","mem_usage":"66.502\", 47.05Mio)"} 
+[2022-09-12 19:49:27] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/purplehaze.scss  {"user":"@79444b1f7564","mem_usage":"63.233\", 46.53Mio)"} 
+[2022-09-12 19:50:32] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/teclib.scss  {"user":"@79444b1f7564","mem_usage":"64.845\", 46.53Mio)"} 
+[2022-09-12 19:51:26] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/vintage.scss  {"user":"@79444b1f7564","mem_usage":"54.533\", 46.53Mio)"} 
+[2022-09-12 19:52:08] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/chartist.scss  {"user":"@79444b1f7564","mem_usage":"41.718\", 46.52Mio)"} 
+[2022-09-12 19:52:08] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/dashboard.scss  {"user":"@79444b1f7564","mem_usage":"0.233\", 45.87Mio)"} 
+[2022-09-12 19:52:09] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/gridstack-grids.scss  {"user":"@79444b1f7564","mem_usage":"0.458\", 48.05Mio)"} 
+[2022-09-12 19:52:36] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/marketplace.scss  {"user":"@79444b1f7564","mem_usage":"27.866\", 45.50Mio)"} 
+[2022-09-12 19:52:37] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/reservations.scss  {"user":"@79444b1f7564","mem_usage":"0.202\", 44.01Mio)"} 
+[2022-09-12 20:06:59] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/install.scss  {"user":"@79444b1f7564"} 
+[2022-09-12 20:07:32] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/aerialgreen.scss  {"user":"@79444b1f7564","mem_usage":"33.317\", 46.92Mio)"} 
+[2022-09-12 20:08:05] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror.scss  {"user":"@79444b1f7564","mem_usage":"33.078\", 46.53Mio)"} 
+[2022-09-12 20:08:38] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror_dark.scss  {"user":"@79444b1f7564","mem_usage":"33.276\", 46.53Mio)"} 
+[2022-09-12 20:09:17] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/automn.scss  {"user":"@79444b1f7564","mem_usage":"38.696\", 47.05Mio)"} 
+[2022-09-12 20:09:51] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/classic.scss  {"user":"@79444b1f7564","mem_usage":"33.573\", 46.53Mio)"} 
+[2022-09-12 20:10:24] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/clockworkorange.scss  {"user":"@79444b1f7564","mem_usage":"33.650\", 46.53Mio)"} 
+[2022-09-12 20:10:58] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/dark.scss  {"user":"@79444b1f7564","mem_usage":"33.681\", 46.53Mio)"} 
+[2022-09-12 20:11:32] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/darker.scss  {"user":"@79444b1f7564","mem_usage":"34.396\", 46.53Mio)"} 
+[2022-09-12 20:12:09] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/flood.scss  {"user":"@79444b1f7564","mem_usage":"36.433\", 47.05Mio)"} 
+[2022-09-12 20:12:55] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/greenflat.scss  {"user":"@79444b1f7564","mem_usage":"46.418\", 46.52Mio)"} 
+[2022-09-12 20:13:33] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/hipster.scss  {"user":"@79444b1f7564","mem_usage":"38.072\", 46.52Mio)"} 
+[2022-09-12 20:14:12] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/icecream.scss  {"user":"@79444b1f7564","mem_usage":"38.875\", 46.53Mio)"} 
+[2022-09-12 20:14:47] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/lightblue.scss  {"user":"@79444b1f7564","mem_usage":"34.332\", 46.53Mio)"} 
+[2022-09-12 20:15:25] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/midnight.scss  {"user":"@79444b1f7564","mem_usage":"38.966\", 46.53Mio)"} 
+[2022-09-12 20:16:03] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/premiumred.scss  {"user":"@79444b1f7564","mem_usage":"37.141\", 47.05Mio)"} 
+[2022-09-12 20:16:53] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/purplehaze.scss  {"user":"@79444b1f7564","mem_usage":"50.369\", 46.53Mio)"} 
+[2022-09-12 20:18:05] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/teclib.scss  {"user":"@79444b1f7564","mem_usage":"72.508\", 46.53Mio)"} 
+[2022-09-12 20:18:53] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/vintage.scss  {"user":"@79444b1f7564","mem_usage":"47.833\", 46.53Mio)"} 
+[2022-09-12 20:19:42] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/chartist.scss  {"user":"@79444b1f7564","mem_usage":"48.499\", 46.52Mio)"} 
+[2022-09-12 20:19:42] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/dashboard.scss  {"user":"@79444b1f7564","mem_usage":"0.243\", 45.86Mio)"} 
+[2022-09-12 20:19:42] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/gridstack-grids.scss  {"user":"@79444b1f7564","mem_usage":"0.326\", 48.05Mio)"} 
+[2022-09-12 20:20:06] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/marketplace.scss  {"user":"@79444b1f7564","mem_usage":"23.142\", 45.50Mio)"} 
+[2022-09-12 20:20:06] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/reservations.scss  {"user":"@79444b1f7564","mem_usage":"0.112\", 44.01Mio)"} 
+[2022-09-12 20:32:07] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/install.scss  {"user":"@79444b1f7564"} 
+[2022-09-12 20:32:47] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/aerialgreen.scss  {"user":"@79444b1f7564","mem_usage":"40.057\", 46.92Mio)"} 
+[2022-09-12 20:33:24] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror.scss  {"user":"@79444b1f7564","mem_usage":"36.714\", 46.52Mio)"} 
+[2022-09-12 20:34:02] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/auror_dark.scss  {"user":"@79444b1f7564","mem_usage":"38.134\", 46.53Mio)"} 
+[2022-09-12 20:34:55] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/automn.scss  {"user":"@79444b1f7564","mem_usage":"52.612\", 47.05Mio)"} 
+[2022-09-12 20:35:28] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/classic.scss  {"user":"@79444b1f7564","mem_usage":"33.757\", 46.52Mio)"} 
+[2022-09-12 20:36:03] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/clockworkorange.scss  {"user":"@79444b1f7564","mem_usage":"34.310\", 46.52Mio)"} 
+[2022-09-12 20:36:36] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/dark.scss  {"user":"@79444b1f7564","mem_usage":"33.625\", 46.52Mio)"} 
+[2022-09-12 20:37:11] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/darker.scss  {"user":"@79444b1f7564","mem_usage":"34.347\", 46.52Mio)"} 
+[2022-09-12 20:37:45] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/flood.scss  {"user":"@79444b1f7564","mem_usage":"34.624\", 47.05Mio)"} 
+[2022-09-12 20:38:20] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/greenflat.scss  {"user":"@79444b1f7564","mem_usage":"34.801\", 46.52Mio)"} 
+[2022-09-12 20:38:58] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/hipster.scss  {"user":"@79444b1f7564","mem_usage":"37.396\", 46.52Mio)"} 
+[2022-09-12 20:39:37] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/icecream.scss  {"user":"@79444b1f7564","mem_usage":"39.607\", 46.52Mio)"} 
+[2022-09-12 20:40:13] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/lightblue.scss  {"user":"@79444b1f7564","mem_usage":"35.665\", 46.52Mio)"} 
+[2022-09-12 20:40:48] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/midnight.scss  {"user":"@79444b1f7564","mem_usage":"34.722\", 46.53Mio)"} 
+[2022-09-12 20:41:22] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/premiumred.scss  {"user":"@79444b1f7564","mem_usage":"34.782\", 47.05Mio)"} 
+[2022-09-12 20:41:57] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/purplehaze.scss  {"user":"@79444b1f7564","mem_usage":"35.047\", 46.52Mio)"} 
+[2022-09-12 20:42:32] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/teclib.scss  {"user":"@79444b1f7564","mem_usage":"34.916\", 46.52Mio)"} 
+[2022-09-12 20:43:06] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/palettes/vintage.scss  {"user":"@79444b1f7564","mem_usage":"33.666\", 46.52Mio)"} 
+[2022-09-12 20:43:37] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/chartist.scss  {"user":"@79444b1f7564","mem_usage":"30.775\", 46.52Mio)"} 
+[2022-09-12 20:43:37] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/dashboard.scss  {"user":"@79444b1f7564","mem_usage":"0.119\", 45.86Mio)"} 
+[2022-09-12 20:43:37] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/gridstack-grids.scss  {"user":"@79444b1f7564","mem_usage":"0.318\", 48.05Mio)"} 
+[2022-09-12 20:43:53] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/marketplace.scss  {"user":"@79444b1f7564","mem_usage":"15.825\", 45.50Mio)"} 
+[2022-09-12 20:43:53] glpiphplog.DEBUG: Html::compileScss() in /var/www/src/Html.php line 6820
+Compile css/standalone/reservations.scss  {"user":"@79444b1f7564","mem_usage":"0.096\", 44.01Mio)"} 
