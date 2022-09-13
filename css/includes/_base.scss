@@ -225,10 +225,8 @@ body.iframed {
 
 .page-anonymous {
     .glpi-logo {
-        --logo: url(#{$logo-dark-login});
-        content: var(--logo);
-        width: 200px;
-        height: 110px;
+        width: 0px;
+        height:0px;
     }
 }
 

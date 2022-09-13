@@ -23083,10 +23083,8 @@ body.iframed {
   width: fit-content;
 }
 .page-anonymous .glpi-logo {
-  --logo: url(../pics/logos/logo_unisuam_vertical.png);
-  content: var(--logo);
-  width: 200px;
-  height: 110px;
+  width: 0px;
+  height: 0px;
 }
 table td.active, table td.tab_bg_4 {
   background-color: rgba(0, 0, 0, 0.1);
