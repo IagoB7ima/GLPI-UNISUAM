@@ -76,3 +76,9 @@ Interno #1: Executar planningrecall
 Interno #1: Executar graph
 2022-09-13 15:06:31 [@79444b1f7564]
 Interno #1: Executar reservation
+2022-09-13 17:13:21 [@79444b1f7564]
+Interno #1: Executar RecurrentItems
+2022-09-13 17:19:03 [2@79444b1f7564]
+Interno #1: Executar closeticket
+2022-09-13 17:19:31 [@79444b1f7564]
+Interno #1: Executar alertnotclosed
